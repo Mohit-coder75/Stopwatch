@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"  href="image/logo.jpg" type="image/x-icon">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id = "name">
+        StopWatch
+    </h1>
+    <!-- container which contains the stopwatch -->
+    <div class="container">
+        <!-- it display time -->
+        <h1 id="showTime">00:00:00.000</h1>
+        <div class="Function">
+            <!-- stop button to stop of stopwatch -->
+            <img src="image/stop.jpg" alt="stop" onclick="watchStop()">
+             <!-- stop button to start of stopwatch -->
+            <img src="image/start_.webp" alt="start" onclick="watchStart()">
+            <!-- stop button to reset of stopwatch -->
+            <img src="image/reset.png" alt="reset" onclick="watchReset()">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

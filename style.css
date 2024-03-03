@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* background color of web page */
+body{
+    background-color: rgba(45,45,45,255);
+   
+}
+
+#name{
+    text-align: center;
+    margin: 35px auto;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: antiquewhite;
+  
+}
+/* container which contains the stopwatch */
+.container{
+    height: 60vh;
+    width: 60vw;
+    position:absolute;
+    border: 4px solid black;
+    top:20%;
+    left: 20%;
+    border-radius: 40px;
+    text-align: center;
+    padding: 5px auto;
+    background-color: black;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+
+}
+/* Timer style */
+.container h1{
+    font-family: 'Roboto Mono', monospace;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 300;
+    /* width: 100%; */
+    max-width: 400px;
+    margin: 100px 80px 100px 210px;
+    /* text-align: right; */
+    white-space: nowrap;
+}
+/* functions of stopwatch............... */
+.function{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Function img{
+    width: 60px;
+    cursor: pointer;
+    margin: 0 20px;
+    object-fit: contain;
+    border-radius: 50%;
+
+}
+.Function img:hover{
+    box-shadow: 0 0 10px rgba(255,255,255,0.8);
+    border-radius: 50%;
+}
